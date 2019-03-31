@@ -1,0 +1,23 @@
+{
+    "name": "gift85/search-in-file",
+    "description": "Simple search in file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Pikulik",
+            "email": "gift1985@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SearchInFile\\": "src/"
+        }
+    }
+}
